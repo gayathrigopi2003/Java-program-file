@@ -1,0 +1,30 @@
+
+public class Main {
+  
+String product;
+int price;
+
+static String shopName="highlife store";
+static int dNo=19;
+
+public static void main(String[] args){
+Main p1=new Main();
+p1.product="soap";
+p1.price=20;
+
+Main p2=new Main();
+p2.product="rise";
+p2.price=30;
+
+Main p3=new Main();
+p3.product="wheat";
+p3.price=40;
+
+System.out.println(p1.product);
+System.out.println(p2.product);
+System.out.println(Main.shopName);
+System.out.println(dNo);
+
+}
+}
+  
